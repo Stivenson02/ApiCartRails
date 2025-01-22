@@ -70,12 +70,7 @@ Esto generará una lista de productos que podrás utilizar para probar los endpo
 - `POST /carts` - Crea un nuevo carrito de compras.
 - `GET /carts/:id` - Devuelve un carrito específico por su ID.
 - `PUT /carts/:id` - Actualiza un carrito de compras.
-- `DELETE /carts/:id` - Elimina un carrito de compras.
-
-### Elementos del Carrito
-
-- `POST /carts/:id/items` - Agrega un producto al carrito.
-- `DELETE /carts/:id/items` - Elimina un producto del carrito.
+- `DELETE /carts/:id` - Elimina un producto del carrito cuando este se queda sin productos elimina el carrito
 
 ## Notas
 
