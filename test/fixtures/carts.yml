@@ -1,0 +1,18 @@
+# == Schema Information
+#
+# Table name: carts
+#
+#  id                :bigint           not null, primary key
+#  total             :integer
+#  quantity_products :integer
+#  created_at        :datetime         not null
+#  updated_at        :datetime         not null
+#
+
+one:
+  total: 1
+  quantity_products: 1
+
+two:
+  total: 1
+  quantity_products: 1
